@@ -21,5 +21,25 @@ An NLP-based unsupervised clustering system that analyzes national anthems using
 
 ## 📦 Installation
 
-```bash
-pip install -r requirements.txt
+## 🧠 Tech Stack
+
+### NLP & Embeddings
+- Sentence-Transformers (MiniLM-L12-v2)
+- PyTorch
+- NLTK
+
+### Machine Learning
+- Scikit-learn (KMeans, Silhouette Score)
+
+### Data Processing
+- Pandas
+- NumPy
+
+### Visualization
+- Matplotlib
+- Seaborn
+- Plotly
+- WordCloud
+
+### Model Persistence
+- Joblib
