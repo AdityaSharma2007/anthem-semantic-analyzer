@@ -226,6 +226,16 @@ def train_kmeans_pipeline(df, n_clusters=4):
     )
     fig.show()
 
+    # 9. World Map Visualization
+    world_map = px.choropleth(
+        df,
+        locations="geo_code",  # Must contain ISO country codes (e.g., IND, USA)
+        color="Theme",
+        hover_name="Country",
+        title="Global Clustering of National Anthems"
+    )
+    world_map.show()
+
     print("\n✅ KMeans Pipeline Completed\n")
 
     # Create models folder if not exists
