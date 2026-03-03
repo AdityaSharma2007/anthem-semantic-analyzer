@@ -1,4 +1,4 @@
-# 🇺🇳 Anthem Semantic Analyzer
+# Anthem Semantic Analyzer
 
 An NLP-based unsupervised clustering system that analyzes national anthems using Sentence Transformers and KMeans.
 
